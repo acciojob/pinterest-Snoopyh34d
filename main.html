@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest</title>
+    <style>
+        body{
+            display: flex;
+        }
+        .hero-left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 200px;
+        }
+        img{
+            width: 500px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+
+        button{
+            padding: 10px 20px;
+            background-color: #f55124;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="hero">
+        <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        
+        
+    </div>
+    <div class="hero-left">
+        <h1>Welcome to my Piterest clone</h1>
+        <p>Discover new inspiration and save your favorite ideas</p>
+        <button>Explore now</button>
+    </div>
 </body>
-
 </html>
